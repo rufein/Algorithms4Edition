@@ -10,7 +10,6 @@
  *  % java BinarySearch tinyW.txt - < tinyT.txt
 */
 
-
 import java.util.Arrays;
 
 public class exercise_1_1_23 {
