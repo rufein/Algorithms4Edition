@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.22
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.22
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   http://algs4.cs.princeton.edu/11model/BinarySearch.java.html
+ *
+ *   Compilation:  javac exercise_1_1_22.java
+ *   Execution:    java exercise_1_1_22 tinyW.txt
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 import java.util.Arrays;
 
@@ -31,16 +44,16 @@ public class exercise_1_1_22{
         }else{
            print_arguments( lo, hi, depth );
            return mid;
-        }
-        
-        
+        }    
     }
     
     /*
      * Function to print arguments
      */
     public static void print_arguments(int lo, int hi, int depth){
-        System.out.println("The low key is : " + lo + " ; The high key is" + hi + "; The depth is" + depth);
+        System.out.println();
+        for(int i = 0; i < depth ; i++) System.out.print("  "); // indented
+        System.out.print("The low key is : " + lo + " ; The high key is " + hi);
     }
     
     /*
@@ -48,7 +61,9 @@ public class exercise_1_1_22{
     */
     public static void main(String[] args) {
         // Read .txt file
-        int[] whitelist = In.readInts();
+        In in = new In(args[0]);
+        int[] whitelist = in.readAllInts();
+        
         // Sort array for the binary search
         Arrays.sort(whitelist);
         
