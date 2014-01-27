@@ -1,14 +1,20 @@
-/*  
- *  Exercise 1.1.23
- */
 
-/*
- *  Execution:
+/****************************************************************************** 
+ *   Exercise 1.1.23
  * 
- *  % java BinarySearch tinyW.txt + < tinyT.txt
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
  * 
- *  % java BinarySearch tinyW.txt - < tinyT.txt
-*/
+ *   This file is based on these files: 
+ *   http://algs4.cs.princeton.edu/11model/BinarySearch.java.html
+ *
+ *   Compilation:  javac exercise_1_1_23.java
+ *   Execution:    java exercise_1_1_23 tinyW.txt + < tinyT.txt
+ *                 java exercise_1_1_23 tinyW.txt - < tinyT.txt
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 import java.util.Arrays;
 
