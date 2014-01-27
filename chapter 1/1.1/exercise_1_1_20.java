@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.20
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.20
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_20.java
+ *   Execution:    java exercise_1_1_20
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 import java.lang.Math;
 
@@ -29,8 +42,7 @@ public class exercise_1_1_20{
             return sum;
         }
     }
-    
-    
+        
     /*
      * function that computes ln(N!) 
     */
