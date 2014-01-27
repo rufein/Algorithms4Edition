@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.11
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.11
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_11.java
+ *   Execution:    java exercise_1_1_11
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_11{
     
@@ -24,7 +37,6 @@ public class exercise_1_1_11{
               } 
           }
        }
-       
        return a;
     }
     
@@ -42,9 +54,7 @@ public class exercise_1_1_11{
                 }
                 System.out.println( "Raw: " + i + " ; Column: " + h + " ; Value: " + symbol);
             }
-            
         }
-    
     }
     
     /*

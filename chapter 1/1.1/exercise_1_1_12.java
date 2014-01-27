@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.12
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.12
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_12.java
+ *   Execution:    java exercise_1_1_12
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_12{
 
@@ -38,7 +51,6 @@ public class exercise_1_1_12{
         System.out.println("Example: array[0] => 0 ;  array[1] => 1 ; ...");
         System.out.println("In the third loop, the code prints the variable -i-");
     }
-    
     
     /*
      * Test function 

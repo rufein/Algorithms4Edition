@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.15
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.15
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_15.java
+ *   Execution:    java exercise_1_1_15
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_15{
 
@@ -8,8 +21,8 @@ public class exercise_1_1_15{
      * Function that create an array with random integers
      * 
      * Arguments:
-     * - x => the lenght of the array
-     * - range => The range of values between 0 and the argument (not inclusive)
+     * @arg x => the lenght of the array
+     * @arg range => The range of values between 0 and the argument (not inclusive)
      *   that fill the array randomly
      * 
     */

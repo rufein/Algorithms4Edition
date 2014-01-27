@@ -1,16 +1,27 @@
-/*  
- *  Exercise 1.1.03
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.03
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_03.java
+ *   Execution:    java exercise_1_1_03
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_03{
   
    /*
     * Function to compare integers given by an user.
     * 
-    * Arguments:
-    * 
-    * - max_times: An integer that indicates the maximum times that an user
-    *   can insert a number.
+    * @param  max_times: An integer that indicates the maximum times that 
+    *         an user can insert a number.@param
    */
     public static void equal_integers(int max_times){
         // Variables

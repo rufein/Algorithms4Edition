@@ -1,6 +1,19 @@
-/*  
- *  Exercise 1.1.14
- */
+
+/****************************************************************************** 
+ *   Exercise 1.1.14
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_14.java
+ *   Execution:    java exercise_1_1_14
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_14{
 
