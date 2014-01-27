@@ -1,7 +1,19 @@
 
-/*  
- *  Exercise 1.1.21
- */
+/****************************************************************************** 
+ *   Exercise 1.1.21
+ * 
+ *   This file is released under the GNU General Public License, 
+ *   version 3 (GPLv3).
+ * 
+ *   This file is based on these files: 
+ *   
+ *
+ *   Compilation:  javac exercise_1_1_21.java
+ *   Execution:    java exercise_1_1_21
+ * 
+ *   @author Koldo González
+ *             
+ *****************************************************************************/
 
 public class exercise_1_1_21{
     
@@ -57,6 +69,10 @@ public class exercise_1_1_21{
         
         // Instructions
         System.out.println("Push -Enter- or write -end- to finish the program");
+        System.out.println("Write in the Standard input 3 arguments separated by spaces. ");
+        System.out.println("The first argument must be an String, the second and the rhird ");
+        System.out.println("must be an Integer. For example:");
+        System.out.println("  Foo 67 13  ");
         
         String[] lines = new String[0];
             
